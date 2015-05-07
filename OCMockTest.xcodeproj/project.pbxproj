@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2A4C2101AFC098B005BC744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4C20F1AFC098B005BC744 /* main.m */; };
-		F2A4C2131AFC098B005BC744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4C2121AFC098B005BC744 /* AppDelegate.m */; };
-		F2A4C2161AFC098B005BC744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4C2151AFC098B005BC744 /* ViewController.m */; };
 		F2A4C2191AFC098B005BC744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A4C2171AFC098B005BC744 /* Main.storyboard */; };
-		F2A4C21B1AFC098B005BC744 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A4C21A1AFC098B005BC744 /* Images.xcassets */; };
 		F2A4C21E1AFC098B005BC744 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A4C21C1AFC098B005BC744 /* LaunchScreen.xib */; };
 		F2A4C22A1AFC098B005BC744 /* OCMockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4C2291AFC098B005BC744 /* OCMockTestTests.m */; };
+		F2A4C2651AFC0F0A005BC744 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A4C2501AFC0F0A005BC744 /* libOCMock.a */; };
+		F2A4C2661AFC0F0A005BC744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4C25D1AFC0F0A005BC744 /* ViewController.m */; };
+		F2A4C2671AFC0F0A005BC744 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A4C25F1AFC0F0A005BC744 /* Images.xcassets */; };
+		F2A4C2681AFC0F0A005BC744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4C2621AFC0F0A005BC744 /* AppDelegate.m */; };
+		F2A4C2691AFC0F0A005BC744 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2A4C2631AFC0F0A005BC744 /* Info.plist */; };
+		F2A4C26A1AFC0F0A005BC744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4C2641AFC0F0A005BC744 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +30,28 @@
 
 /* Begin PBXFileReference section */
 		F2A4C20A1AFC098B005BC744 /* OCMockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2A4C20E1AFC098B005BC744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2A4C20F1AFC098B005BC744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2A4C2111AFC098B005BC744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F2A4C2121AFC098B005BC744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2A4C2141AFC098B005BC744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2A4C2151AFC098B005BC744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F2A4C2181AFC098B005BC744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2A4C21A1AFC098B005BC744 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2A4C21D1AFC098B005BC744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2A4C2231AFC098B005BC744 /* OCMockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A4C2281AFC098B005BC744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A4C2291AFC098B005BC744 /* OCMockTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockTestTests.m; sourceTree = "<group>"; };
+		F2A4C2501AFC0F0A005BC744 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		F2A4C2521AFC0F0A005BC744 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		F2A4C2531AFC0F0A005BC744 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		F2A4C2541AFC0F0A005BC744 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		F2A4C2551AFC0F0A005BC744 /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		F2A4C2561AFC0F0A005BC744 /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		F2A4C2571AFC0F0A005BC744 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		F2A4C2581AFC0F0A005BC744 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		F2A4C2591AFC0F0A005BC744 /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		F2A4C25A1AFC0F0A005BC744 /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		F2A4C25C1AFC0F0A005BC744 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2A4C25D1AFC0F0A005BC744 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2A4C25F1AFC0F0A005BC744 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2A4C2611AFC0F0A005BC744 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2A4C2621AFC0F0A005BC744 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2A4C2631AFC0F0A005BC744 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A4C2641AFC0F0A005BC744 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A4C2651AFC0F0A005BC744 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,25 +94,15 @@
 		F2A4C20C1AFC098B005BC744 /* OCMockTest */ = {
 			isa = PBXGroup;
 			children = (
-				F2A4C2111AFC098B005BC744 /* AppDelegate.h */,
-				F2A4C2121AFC098B005BC744 /* AppDelegate.m */,
-				F2A4C2141AFC098B005BC744 /* ViewController.h */,
-				F2A4C2151AFC098B005BC744 /* ViewController.m */,
 				F2A4C2171AFC098B005BC744 /* Main.storyboard */,
-				F2A4C21A1AFC098B005BC744 /* Images.xcassets */,
 				F2A4C21C1AFC098B005BC744 /* LaunchScreen.xib */,
-				F2A4C20D1AFC098B005BC744 /* Supporting Files */,
+				F2A4C26B1AFC130D005BC744 /* Model */,
+				F2A4C25B1AFC0F0A005BC744 /* Modules */,
+				F2A4C25E1AFC0F0A005BC744 /* Resources */,
+				F2A4C24F1AFC0F0A005BC744 /* External */,
+				F2A4C2601AFC0F0A005BC744 /* Supporting Files */,
 			);
 			path = OCMockTest;
-			sourceTree = "<group>";
-		};
-		F2A4C20D1AFC098B005BC744 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2A4C20E1AFC098B005BC744 /* Info.plist */,
-				F2A4C20F1AFC098B005BC744 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		F2A4C2261AFC098B005BC744 /* OCMockTestTests */ = {
@@ -117,6 +120,66 @@
 				F2A4C2281AFC098B005BC744 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2A4C24F1AFC0F0A005BC744 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4C2501AFC0F0A005BC744 /* libOCMock.a */,
+				F2A4C2511AFC0F0A005BC744 /* OCMock */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		F2A4C2511AFC0F0A005BC744 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4C2521AFC0F0A005BC744 /* NSNotificationCenter+OCMAdditions.h */,
+				F2A4C2531AFC0F0A005BC744 /* OCMArg.h */,
+				F2A4C2541AFC0F0A005BC744 /* OCMConstraint.h */,
+				F2A4C2551AFC0F0A005BC744 /* OCMLocation.h */,
+				F2A4C2561AFC0F0A005BC744 /* OCMMacroState.h */,
+				F2A4C2571AFC0F0A005BC744 /* OCMock.h */,
+				F2A4C2581AFC0F0A005BC744 /* OCMockObject.h */,
+				F2A4C2591AFC0F0A005BC744 /* OCMRecorder.h */,
+				F2A4C25A1AFC0F0A005BC744 /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		F2A4C25B1AFC0F0A005BC744 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4C25C1AFC0F0A005BC744 /* ViewController.h */,
+				F2A4C25D1AFC0F0A005BC744 /* ViewController.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F2A4C25E1AFC0F0A005BC744 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4C25F1AFC0F0A005BC744 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F2A4C2601AFC0F0A005BC744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4C2611AFC0F0A005BC744 /* AppDelegate.h */,
+				F2A4C2621AFC0F0A005BC744 /* AppDelegate.m */,
+				F2A4C2631AFC0F0A005BC744 /* Info.plist */,
+				F2A4C2641AFC0F0A005BC744 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2A4C26B1AFC130D005BC744 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A4C2691AFC0F0A005BC744 /* Info.plist in Resources */,
+				F2A4C2671AFC0F0A005BC744 /* Images.xcassets in Resources */,
 				F2A4C2191AFC098B005BC744 /* Main.storyboard in Resources */,
 				F2A4C21E1AFC098B005BC744 /* LaunchScreen.xib in Resources */,
-				F2A4C21B1AFC098B005BC744 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A4C2161AFC098B005BC744 /* ViewController.m in Sources */,
-				F2A4C2131AFC098B005BC744 /* AppDelegate.m in Sources */,
-				F2A4C2101AFC098B005BC744 /* main.m in Sources */,
+				F2A4C2681AFC0F0A005BC744 /* AppDelegate.m in Sources */,
+				F2A4C26A1AFC0F0A005BC744 /* main.m in Sources */,
+				F2A4C2661AFC0F0A005BC744 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +411,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OCMockTest/Info.plist;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/External/OCMock/",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OCMockTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMockTest/External",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +431,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OCMockTest/Info.plist;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/External/OCMock/",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OCMockTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMockTest/External",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +500,7 @@
 				F2A4C22F1AFC098B005BC744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2A4C2301AFC098B005BC744 /* Build configuration list for PBXNativeTarget "OCMockTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +509,7 @@
 				F2A4C2321AFC098B005BC744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
